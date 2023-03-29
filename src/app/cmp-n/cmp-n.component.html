@@ -1,0 +1,24 @@
+
+<div name="Calc">
+  <form>
+    <h2>Calculadora Angular</h2>
+    <br><br>
+    Número 1: <input type="number" name="n1" [(ngModel)]="num1"><br><br>
+    Número 2: <input type="number" name="n2" [(ngModel)]="num2"><br><br>
+ 
+
+    <div>
+      <button (click)="somar()" >+</button>
+      <button (click)="sub()" class="btn" >-</button>
+      <br><br>
+      <button (click)="div()" >/</button>
+      <button (click)="mult()" class="btn" >*</button>   
+      <br><br>
+      <button  id="resto" type="button"  (click)="resto()">Resto</button>
+      </div>
+
+      <br><br>
+      Resposta: <input type="number" name="resp" [(ngModel)]="resp" readonly>
+
+    </form>
+</div>

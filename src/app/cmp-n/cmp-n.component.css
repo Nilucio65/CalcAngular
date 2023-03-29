@@ -1,0 +1,40 @@
+form{
+  background-color: aquamarine;
+  display: flex;
+  padding: 7%;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7.7%;
+  margin-left: 14%;
+}
+.calc{
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  flex-direction: column;
+  height: 25%;
+  width: 15%;
+  padding: 15%;
+
+
+}
+
+h2{
+  margin-top: -2cm;
+  font-size: large;
+}
+
+.btn{
+  margin-left: 0.5cm;
+}
+
+button{
+  width: 0.7cm;
+}
+
+#resto{
+  width: 1.92cm;
+}
+
+
